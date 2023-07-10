@@ -1,5 +1,73 @@
 /* Global css */
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  color: #272727;
+  font-style: normal;
+  line-height: normal;
+}
+p {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+section {
+  width: 1300px;
+  margin: auto;
+}
+
+.section-title {
+  text-align: center;
+}
+
+.btn {
+  background: #e55473;
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 8px;
+  padding: 20px 43px;
+  border: none;
+}
+
+/* Local css */
+
+
+/* header banner part */
+header {
+  background: rgba(229, 84, 115, 0.1);
+}
+header .banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+}
+header .banner .banner-container {
+  width: 525px;
+}
+header .banner .banner-container h1 {
+  font-size: 60px;
+  font-weight: 800;
+}
+header .banner .banner-container p {
+    padding: 20px 0;
+}
+header .banner .banner-container button {
+    cursor: pointer;
+}
+
+header .banner .banner-image img {
+  width: 442px;
 }
