@@ -137,8 +137,26 @@ header .banner .banner-image img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
 }
-.instagram .instagram-container .item img{
-    width: 300px;
+.instagram .instagram-container .item img {
+  width: 300px;
+}
+
+/* latest-deal */
+.latest-deal {
+  background-image: url("./../img/Rectangle 9.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.latest-deal input {
+  width: 362px;
+  border: none;
+  border-radius: 8px;
+  background: #fff;
+  padding: 20px;
+  font-size: 20px;
+  margin-right: 15px;
+}
+.latest-deal .btn {
 }
