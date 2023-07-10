@@ -12,12 +12,18 @@ h3 {
   font-style: normal;
   line-height: normal;
 }
+
+h2{
+    font-size: 40px;
+    font-weight: 800;
+}
 p {
   color: rgba(39, 39, 39, 0.6);
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 30px;
+  padding: 20px 0;
 }
 
 section {
@@ -42,6 +48,7 @@ section {
   border-radius: 8px;
   padding: 20px 43px;
   border: none;
+  cursor: pointer;
 }
 
 /* Local css */
@@ -64,27 +71,14 @@ header .banner .banner-container h1 {
   font-size: 60px;
   font-weight: 800;
 }
-header .banner .banner-container p {
-  padding: 20px 0;
-}
-header .banner .banner-container button {
-  cursor: pointer;
-}
+
 
 header .banner .banner-image img {
   width: 442px;
 }
 
 /*  Our Featured Flowers */
-.featured {
-}
-.featured .section-title h2 {
-  font-size: 30px;
-  font-weight: 800;
-}
-.featured .section-title p {
-  padding: 20px;
-}
+
 .featured .featured-container {
   display: flex;
   justify-content: space-between;
@@ -125,4 +119,26 @@ header .banner .banner-image img {
   font-weight: 700;
   line-height: 35px;
   padding: 20px 0;
+}
+
+/* Hot deal section */
+.hot-deal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  background: rgba(229, 84, 115, 0.05);
+  padding: 100px 0;
+}
+.hot-deal .deal-container {
+  text-align: center;
+  width: 594px;
+}
+
+.hot-deal .deal-container h2 span {
+  color: #e55473;
+}
+
+
+.hot-deal .deal-img img {
 }
