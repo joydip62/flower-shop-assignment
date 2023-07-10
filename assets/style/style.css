@@ -23,10 +23,13 @@ p {
 section {
   width: 1300px;
   margin: auto;
+  padding: 100px 0;
 }
 
 .section-title {
   text-align: center;
+  width: 594px;
+  margin: auto;
 }
 
 .btn {
@@ -43,7 +46,6 @@ section {
 
 /* Local css */
 
-
 /* header banner part */
 header {
   background: rgba(229, 84, 115, 0.1);
@@ -53,6 +55,7 @@ header .banner {
   justify-content: space-between;
   align-items: center;
   padding-top: 50px;
+  padding-bottom: 0;
 }
 header .banner .banner-container {
   width: 525px;
@@ -62,12 +65,64 @@ header .banner .banner-container h1 {
   font-weight: 800;
 }
 header .banner .banner-container p {
-    padding: 20px 0;
+  padding: 20px 0;
 }
 header .banner .banner-container button {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 header .banner .banner-image img {
   width: 442px;
+}
+
+/*  Our Featured Flowers */
+.featured {
+}
+.featured .section-title h2 {
+  font-size: 30px;
+  font-weight: 800;
+}
+.featured .section-title p {
+  padding: 20px;
+}
+.featured .featured-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.featured .featured-container .item {
+  text-align: center;
+  height: 100%;
+}
+.featured .featured-container .item .item-img {
+  width: 330px;
+  height: 100%;
+  /* height: 454px; */
+  padding: 50px 30px 0;
+}
+
+.featured .featured-container .item .img1 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+}
+.featured .featured-container .item .img2 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+  /* padding-bottom: 120px; */
+}
+.featured .featured-container .item .img3 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+}
+
+.featured .featured-container .item .item-img img {
+  width: 310px;
+}
+
+.featured .featured-container .item h3 {
+  text-decoration: underline;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
+  padding: 20px 0;
 }
